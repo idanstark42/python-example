@@ -14,3 +14,4 @@ drive_base = DriveBase(left, right, 55.5, 124)
 
 # Starting the program
 turn(90, 60, Port.S4, drive_base)
+drive_base.straight(200) # 20 cm
